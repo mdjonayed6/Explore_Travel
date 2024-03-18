@@ -1,3 +1,78 @@
-h2{
-    color: red;
+/* shared styles  */
+.primary-btn{
+    width: 8rem;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff5400;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.menu-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar li a:hover{
+    color: coral;
+}
+
+.left-menu{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.left-menu h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-menu span{
+    color: coral;
+}
+
+.header-banner-section{
+    background: linear-gradient(120deg, rgba(17, 15, 14, 0.388), rgba(0, 0, 0, 0.382)), url('/Images/header.png');
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.header-banner-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+}
+.header-title h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-title p{
+    color: white;
+    font-size: 1rem;
+}
+
+
+.input{
+    width: 8rem;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
 }
