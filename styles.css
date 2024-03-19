@@ -7,7 +7,17 @@
     background-color: #ff5400;
     color: white;
 }
-
+.search-btn{
+    position: relative;
+}
+.search-btn span{
+    position: absolute;
+    top: 10px;
+}
+.search-btn span img{
+    width: 25px;
+    height: 25px;
+}
 h1, h2, h3, h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -229,4 +239,61 @@ nav{
     align-items: center;
     justify-content: center;
     margin: 5px auto;
+}
+
+
+/* Deals & Discount styles start here  */
+.deals-description{
+    text-align: center;
+}
+.bookNow1{
+    background: url('./Images/book1.png');
+    height: 80vh;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.bookNow1-description{
+    padding: 30px;
+    background-color: #f4eded;
+    width: 40%;
+    height: 60%;
+    margin: 10vh 40px;
+    opacity: 0.9;
+    border-radius: 10px;
+
+}
+.booking-image{
+    display: flex;
+    align-items: center;
+}
+.booking-image img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.payment-color{
+    color: #ff5400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+/* cart 2 */
+.bookNow2{
+    background: url('./Images/book2.png');
+    height: 80vh;
+    width: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+
 }
