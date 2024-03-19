@@ -1,5 +1,5 @@
 /* shared styles  */
-.primary-btn{
+.btn-primary{
     width: 8rem;
     padding: 12px;
     border-radius: 8px;
@@ -7,7 +7,7 @@
     background-color: #ff5400;
     color: white;
 }
-
+/* header styles start here */
 nav{
     display: flex;
     justify-content: space-around;
@@ -39,7 +39,7 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .left-menu span{
-    color: coral;
+    color: #ff5400;
 }
 
 .header-banner-section{
@@ -75,4 +75,36 @@ nav{
     padding: 12px;
     border: none;
     border-radius: 8px;
+}
+.header-inputs{
+    border: 2px solid white;
+    padding: 15px;
+    box-shadow: 5px 7px 5px gray;
+}
+
+/* main styles start here  */
+.our-popular-tour-section{
+    display: flex;
+    width: 80%;
+    gap: 70px;
+    margin: 80px auto;
+}
+.tour-description{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.tour-description h2{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tour-description p, li{
+    margin-bottom: 15px;
+    color: #6a6a70;
+}
+.tour-image{
+    width: 50%;
+}
+.tour-image img{
+    width: 100%;
 }
