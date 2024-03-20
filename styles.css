@@ -12,11 +12,12 @@
 }
 .search-btn span{
     position: absolute;
-    top: 10px;
+    top: 9px;
+    margin-left: 10px;
 }
 .search-btn span img{
-    width: 25px;
-    height: 25px;
+    width: 23px;
+    height: 23px;
 }
 h1, h2, h3, h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -91,6 +92,9 @@ nav{
     border: 2px solid white;
     padding: 15px;
     box-shadow: 5px 7px 5px gray;
+    width: 100%;
+    display: flex;
+    gap: 20px;
 }
 
 /* main styles start here  */
@@ -268,6 +272,9 @@ nav{
     border-radius: 10px;
 
 }
+.book-text{
+    color: #6a6a70;
+}
 .booking-image{
     display: flex;
     align-items: center;
@@ -293,7 +300,63 @@ nav{
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     margin-top: 20px;
 
+}
+
+
+/* A simple perfect place style from here  */
+.tour-video{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.tour-video iframe{
+    border-radius: 10px;
+}
+
+/* Newsletter Styles here  */
+.newsletter-container{
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+    gap: 50px;
+}
+.newsletter-description{
+    border: 1px solid #ff5400;
+    width: 40%;
+    height: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.newsletter-description .text{
+    width: 20rem;
+    height: 2rem;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.newsletter-images{
+    width: 50%;
+}
+.newsletter-images img{
+    width: 34rem;
+    height: 17rem;
+}
+
+.btn-primary2{
+    width: 20rem;
+    height: 2rem;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff5400;
+    color: white;
 }
