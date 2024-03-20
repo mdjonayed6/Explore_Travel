@@ -305,6 +305,14 @@ nav{
 
 }
 
+.see-all-packages-btn{
+    width: 8rem;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff5400;
+    color: white;
+}
 
 /* A simple perfect place style from here  */
 .tour-video{
@@ -317,7 +325,33 @@ nav{
 .tour-video iframe{
     border-radius: 10px;
 }
-
+/* Customer-comments styles here  */
+.customer-comments-container{
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+    align-items: center;
+    gap: 70px;
+}
+.customers-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.agency{
+    color: #ff5400;
+}
+.customers-image{
+    width: 50%;
+}
+.customers-image img{
+    width: 32rem;
+    height: 30rem;
+    border-radius: 20px;
+}
+.customer-comments-description{
+    width: 50%;
+    text-align: justify;
+}
 /* Newsletter Styles here  */
 .newsletter-container{
     display: flex;
@@ -359,4 +393,25 @@ nav{
     border: none;
     background-color: #ff5400;
     color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title img{
+    width: 40px;
+    height: 40px;
+}
+.footer p{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
