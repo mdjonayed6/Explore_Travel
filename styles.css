@@ -305,12 +305,16 @@ nav{
 
 }
 
-.see-all-packages-btn{
+/* See-all-packages-button  */
+.deals-and-discount-container .see-all-packages-btn{
     width: 8rem;
-    padding: 12px;
+    padding: 5px;
     border-radius: 8px;
+    text-align: center;
     border: none;
+    margin: 7px auto;
     background-color: #ff5400;
+    text-align: center;
     color: white;
 }
 
@@ -395,6 +399,7 @@ nav{
     color: white;
 }
 
+/* Footer Styles start here  */
 footer{
     text-align: center;
     padding: 50px;
@@ -409,9 +414,53 @@ footer{
 .footer-title img{
     width: 40px;
     height: 40px;
+    margin-right: 1rem;
 }
 .footer p{
     width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+/* Responsive Media  */
+
+@media screen and (max-width: 765px) {
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 765px) {
+    .header-banner-section{
+        width: 100%;
+        background-size: cover;
+
+    }
+    .header-banner-section .header-inputs{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+    .header-banner-section .search-btn{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 100%;
+    }
+}
+
+/* Our popular tour section media */
+
+@media screen and (max-width: 765px) {
+    .our-popular-tour-section{
+        flex-direction: column;
+    }
+    
+    .tour-description{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 10px;
+    }
 }
